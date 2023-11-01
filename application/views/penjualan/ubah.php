@@ -8,7 +8,7 @@
       <div class="form-panel">
           <h5>Ubah Data</h5>
           <hr>
-          <form class="form mb-2" action="<?php echo base_url('DataPenjualan') ?>/ubah/<?php echo $ubah['id_penjualan'] ?>" method="post">
+          <form class="form mb-2" action="<?php echo base_url('DataStok') ?>/ubah/<?php echo $ubah['id_penjualan'] ?>" method="post">
             <div class="form-group">
               <label for="exampleInputEmail1">Id Penjualan</label>
               <input type="text" class="form-control" id="exampleInputEmail1" name="tahun" value="<?php echo $ubah['id_penjualan'] ?>" readonly>

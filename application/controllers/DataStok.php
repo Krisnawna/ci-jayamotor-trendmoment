@@ -3,7 +3,7 @@
 /**
  * 
  */
-class DataPenjualan extends CI_Controller
+class DataStok extends CI_Controller
 {
 	public $namaBulan = array("Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember");
 	public function __construct()
@@ -36,7 +36,7 @@ class DataPenjualan extends CI_Controller
 		{
 			$this->Penjualan_Model->tambah_data();
 			$this->session->set_flashdata('flash', 'Disimpan');
-			redirect('DataPenjualan');
+			redirect('DataStok');
 		}	
 	}
 
@@ -44,7 +44,7 @@ class DataPenjualan extends CI_Controller
 	{
 		$this->Penjualan_Model->hapus_data($kd);
 		$this->session->set_flashdata('flash', 'Dihapus');
-		redirect('DataPenjualan');	
+		redirect('DataStok');	
 	}
 
 	public function ubah($kd)
@@ -62,7 +62,7 @@ class DataPenjualan extends CI_Controller
 		{
 			$this->Penjualan_Model->ubah_data($kd);
 			$this->session->set_flashdata('flash', 'DiUbah');
-			redirect('DataPenjualan');
+			redirect('DataStok');
 		}	
 	}
 

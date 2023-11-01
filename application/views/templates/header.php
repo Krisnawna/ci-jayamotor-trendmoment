@@ -76,9 +76,9 @@
               </a>
           </li>
            <li class="sub-menu">
-            <a href="<?= base_url('DataPenjualan') ?>">
+            <a href="<?= base_url('DataStok') ?>">
               <i class="fa fa-folder"></i>
-              <span>Data Penjualan</span>
+              <span>Data Stok</span>
               </a>
           </li>
            <li class="sub-menu">
