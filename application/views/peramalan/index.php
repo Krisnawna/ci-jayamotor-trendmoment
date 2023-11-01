@@ -49,7 +49,7 @@ $namaBulan = array("","Januari","Februari","Maret","April","Mei","Juni","Juli","
             <th>Merk Produk</th>
             <th>Tahun</th>
             <th>Bulan</th>
-            <th>Penjualan(y)</th>
+            <th>Stok(y)</th>
             <th>Waktu(x)</th>
             <th>x*y</th>
             <th>x^2</th>
